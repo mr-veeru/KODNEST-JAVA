@@ -1,0 +1,23 @@
+
+public class MethodOverloadingCalculator 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+	
+	 public static double calculate(double num1, double num2) {
+	        return num1 + num2;
+	    }
+
+	    // Method for subtraction
+	    public static double calculate(double num1, double num2, char operator) {
+	        return num1 - num2;
+	    }
+
+	    // Method for multiplication
+	    public static double calculate(double num1, double num2, char operator) {
+	        return num1 * num2;
+	    }
+
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class LogicalOperatorValidation 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Is input valid (true/false): ");
+		Does input meet a certain condition (true/false): true
+		Input is valid.
+	}
+	public static boolean isValidInput(boolean inputValid, boolean inputMeets)
+	{
+		return inputValid && inputMeets;
+		
+	}
+}

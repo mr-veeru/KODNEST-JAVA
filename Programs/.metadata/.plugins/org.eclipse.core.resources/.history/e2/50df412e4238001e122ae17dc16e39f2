@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Calculator 
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 int num1 = sc.nextInt();
+		 int num2 = sc.nextInt();
+		 
+		 System.out.println("Enter any one Operator among the following:");
+		 System.out.println("Click + for Addition");
+		 System.out.println("Click - for Subtraction");
+		 System.out.println("Click * for Multiplication");
+		 System.out.println("Click / for Division");
+		 char operator = sc.nextLine().charAt(0);
+	}
+	public static void arithmeticOperations(String operator, int a, int b)
+	{
+		switch(operator)
+		{
+			case "add" : System.out.println("Result of Addition is :" + (a+b));
+					break;
+		}
+	}
+}

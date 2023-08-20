@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TaxCalculator 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the purchase amount: "); //100
+		
+		
+		Enter the tax rate (in decimal form): 0.08
+		Total cost including tax: 108.0
+	}
+	public static double calculateTotalWithTax(double amount, double taxRate)
+	{
+		return (amount*taxRate)+amount;
+	}
+}

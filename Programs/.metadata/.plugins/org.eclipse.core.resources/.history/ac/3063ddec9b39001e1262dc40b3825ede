@@ -1,0 +1,17 @@
+
+public class BitwiseSwapper 
+{
+	public static void main(String[] args) 
+	{
+		Enter the first integer: 5
+		Enter the second integer: 8
+		
+	}
+	public static void  swapUsingBitwise(int num1, int num2)
+	{
+		int temp = num1^num2;
+		num1 = num2^num1;
+		num2 = temp;
+		System.out.println("After swapping: First = " + num1 + ", Second = " + num2);
+	}
+}

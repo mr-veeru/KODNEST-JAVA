@@ -1,0 +1,14 @@
+
+public class temperatureConvertion  
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+	public static double celsiusToFahrenheit(double celsius)
+	{
+		return (celsius*9/5) + 32;
+		
+	}
+
+}

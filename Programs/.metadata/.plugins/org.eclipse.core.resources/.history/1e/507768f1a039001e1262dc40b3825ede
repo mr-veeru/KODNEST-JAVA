@@ -1,0 +1,12 @@
+
+public class BitwiseBitCounter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(countSetBits(9));
+	}
+	static int countSetBits(int n)
+    {
+		return (n & 1) + countSetBits(n >> 1);
+    }
+}

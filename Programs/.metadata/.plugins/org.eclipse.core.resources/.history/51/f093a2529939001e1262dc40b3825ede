@@ -1,0 +1,13 @@
+
+public class LogicalOperatorValidation 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+	public static boolean isValidInput(boolean inputValid, boolean inputMeets)
+	{
+		return inputValid && inputMeets;
+		
+	}
+}
